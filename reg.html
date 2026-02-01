@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class = "cons">
+        <div class="Log_card">
+            <h1>Sign Up</h1>
+            <p class="tag">Fill in the details to create your account</p>
+
+            <form>
+                <div class="input_1">
+                    <label for="FName"></label>
+                    <input type="text" id="FName" placeholder="First name" required>
+                </div>
+
+                <div class="input_2">
+                    <label for="SName"></label>
+                    <input type="text" id="SName" placeholder="Surname" required>
+                </div>
+
+                <div class="dob">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" required>
+                </div>
+
+                <div class="Gender">
+                    <label for="Gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <div class="username">
+                    <label for="username"></label>
+                    <input type="text" id="username" placeholder="Mobile number or email address" required>
+                </div>
+
+                <div class="npass">
+                    <input type="password" id="password" placeholder="Password">
+                    <label for="password"></label>
+                </div>
+
+                <button type="submit">Sign Up</button>
+
+                <p class="signup">
+                    Already have an account? <a href="form.html">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

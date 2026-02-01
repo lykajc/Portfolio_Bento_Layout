@@ -1,0 +1,118 @@
+body {
+      background: #f5f7fb;
+      font-family: 'Monteserrat', sans-serif;
+      display: flex;
+    }
+
+    /* Card/boxes */
+    .card-box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      border: 1px solid #e6e9f0;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      max-height: 100%;
+  
+    }
+
+    /* Card Effects */
+    .card-box:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
+
+    /* picture */
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+
+    /* oval buttons */
+    .tag {
+      display: inline-block;
+      padding: 6px 13px;
+      border-radius: 10px;
+      font-size: 15px;
+      background: #f1f3f6;
+      color: #333;
+      text-decoration: none;
+      margin: 5px 6px 5px 0;
+      transition: all 0.2s ease;
+    }
+
+    /* buttons effect */
+    .tag:hover {
+      background: #393a3c;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    /* social buttons */
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 30px;
+      border: 1px solid #dee2e6;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+
+    /* social buttons effect */
+    .social-btn:hover {
+      background:#393a3c;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    /* left boxes */
+    .section-title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .experience-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .experience-item:last-child {
+      border-bottom: none;
+    }
+
+    .projects-grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.project-item {
+  background: #f8f9fc;
+  border-radius: 10px;
+  padding: 16px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #e6e9f0;
+  transition: all 0.25s ease;
+  height: 100%;
+}
+
+.project-item p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.project-item:hover {
+  background: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+}
